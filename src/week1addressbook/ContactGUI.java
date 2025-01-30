@@ -129,7 +129,6 @@ ArrayList <Contact> aList = new ArrayList<>();
         });
 
         buttonGroup1.add(businessRB);
-        businessRB.setSelected(true);
         businessRB.setText("Business Contact");
         businessRB.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -383,8 +382,8 @@ ArrayList <Contact> aList = new ArrayList<>();
     private javax.swing.JTextField addressTF;
     private javax.swing.JRadioButton businessRB;
     private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.JLabel companyLBL;
-    private javax.swing.JTextField companyTF;
+    public static javax.swing.JLabel companyLBL;
+    public static javax.swing.JTextField companyTF;
     private javax.swing.JRadioButton contactRB;
     private javax.swing.JButton deleteBTN;
     private javax.swing.JButton displayBTN;

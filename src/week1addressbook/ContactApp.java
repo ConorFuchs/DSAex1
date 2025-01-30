@@ -18,6 +18,8 @@ public class ContactApp {
         
         ContactGUI gui = new ContactGUI();
         gui.setVisible(true);
+        gui.companyTF.setVisible(false);
+        gui.companyLBL.setVisible(false);
     }
     
 }
